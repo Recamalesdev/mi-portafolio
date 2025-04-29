@@ -2,6 +2,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log("Portafolio de Bernardo Recamales cargado correctamente.");
 
-  // Aquí podrías añadir funcionalidades, 
+  // futuras  funcionalidades, 
   // por ejemplo, un menú responsive o efectos de scroll.
 });
