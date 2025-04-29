@@ -8,8 +8,8 @@
 /* Fuente principal y colores base */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #0f0f0f; /* Fondo oscuro */
-  color: #ffffff; /* Texto claro */
+  background-color: #0f0f0f;
+  color: #ffffff; 
   line-height: 1.6;
 }
 
@@ -27,14 +27,14 @@ body {
   color: #ffffff;
 }
 .logo span {
-  color: #00c853; /* Acento verde */
+  color: #00c853; 
 }
 
 /* Header */
 header {
-  background-color: #0f0f0f; /* Mantener la coherencia con el fondo */
+  background-color: #0f0f0f; 
   padding: 1rem 0;
-  border-bottom: 1px solid #222; /* Sutil separación */
+  border-bottom: 1px solid #222;
 }
 
 .nav-links {
@@ -50,7 +50,7 @@ header {
   transition: color 0.3s;
 }
 .nav-links a:hover {
-  color: #00c853; /* Acento en hover */
+  color: #00c853; 
 }
 
 /* Hero */
@@ -112,20 +112,49 @@ header {
 
 /* NUEVA SECCIÓN: SOBRE MÍ */
 .about {
-  background-color: #141414;
-  padding: 4rem 2rem;
-  text-align: center;
+  padding: 60px 20px;
+  background: #1e1e1e;
+  color: #f0f0f0;
 }
+
 .about h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #00ff99;
 }
-.about .section-description {
-  color: #bbb;
-  max-width: 800px;
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
   margin: 0 auto;
-  margin-top: 1rem;
 }
+
+.about-foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00ff99;
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.about-foto:hover {
+  transform: scale(1.05);
+}
+
+.about-texto p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: center;
+  max-width: 700px;
+}
+
 
 /* Sección Proyectos */
 .projects {
