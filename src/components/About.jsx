@@ -4,7 +4,6 @@ export function About() {
       <h3 className="text-2xl font-bold text-zinc-100">
         Más allá del <span className="text-emerald-500">Código</span>
       </h3>
-
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
         {/* COLUMNA IZQUIERDA: Narrativa */}
         <div className="space-y-6 leading-relaxed text-zinc-400">
@@ -65,8 +64,7 @@ export function About() {
           </ul>
         </div>
       </div>
-
-      /// SECCIÓN DE TECNOLOGÍAS
+      // SECCIÓN DE TECNOLOGÍAS//
       <div className="mt-16 border-t border-zinc-800 pt-12">
         <h4 className="mb-8 text-sm font-mono tracking-widest text-emerald-500 uppercase">
           Tecnologías & Herramientas

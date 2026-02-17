@@ -1,5 +1,3 @@
-// src/components/Projects.jsx
-
 export function Projects() {
   return (
     <section id="proyectos" className="mt-32">
