@@ -64,7 +64,8 @@ export function About() {
           </ul>
         </div>
       </div>
-      // SECCIÓN DE TECNOLOGÍAS//
+      
+      {/* SECCIÓN DE TECNOLOGÍAS */}
       <div className="mt-16 border-t border-zinc-800 pt-12">
         <h4 className="mb-8 text-sm font-mono tracking-widest text-emerald-500 uppercase">
           Tecnologías & Herramientas
