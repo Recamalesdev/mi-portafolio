@@ -38,11 +38,11 @@ export function Projects() {
         {/* TARJETA 2 */}
         <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 transition-all hover:border-emerald-500/50">
           <h4 className="mb-2 text-xl font-semibold text-zinc-100">
-            Calculadora Lógica
+            Trivia Game
           </h4>
           <p className="mb-4 text-sm leading-relaxed text-zinc-400">
-            Ejercicio de Deep Work. Lógica matemática pura, manipulación del DOM
-            y diseño estructural sin dependencias.
+            Aplicación interactiva de preguntas y respuestas. Gestión del
+            estado, consumo de datos y manipulación del DOM.
           </p>
           {/* Etiquetas de Tecnología */}
           <div className="mb-6 flex flex-wrap gap-2">
@@ -50,11 +50,13 @@ export function Projects() {
               JavaScript
             </span>
             <span className="rounded-full bg-zinc-800 px-3 py-1 text-xs font-medium text-zinc-300">
-              CSS Grid
+              HTML/CSS
             </span>
           </div>
           <a
-            href="#"
+            href="https://github.com/Recamalesdev/trivial-game"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-zinc-300 transition-colors hover:text-emerald-400"
           >
             Ver Código →
