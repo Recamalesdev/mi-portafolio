@@ -14,19 +14,22 @@ export function Footer() {
       <div className="mb-8 flex justify-center gap-6">
         <a
           href="https://www.linkedin.com/in/bernardo-recamales-guti%C3%A9rrez-13b87a2a1/"
-          className="rounded-full border border-zinc-700 bg-zinc-900 px-6 py-2 text-sm font-medium text-zinc-300 transition-all hover:border-emerald-500 hover:text-emerald-500"
+          target="_blank"
+          className="flex items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 px-6 py-2 text-sm font-medium text-zinc-300 transition-all hover:border-emerald-500 hover:text-emerald-500"
         >
           LinkedIn
         </a>
         <a
           href="https://github.com/Recamalesdev"
-          className="rounded-full border border-zinc-700 bg-zinc-900 px-6 py-2 text-sm font-medium text-zinc-300 transition-all hover:border-emerald-500 hover:text-emerald-500"
+          target="_blank"
+          className=" flex items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 px-6 py-2 text-sm font-medium text-zinc-300 transition-all hover:border-emerald-500 hover:text-emerald-500"
         >
           GitHub
         </a>
         <a
           href="mailto:bernardorecamalesgt@gmail.com"
-          className="rounded-full bg-emerald-600 px-6 py-2 text-sm font-medium text-white transition-all hover:bg-emerald-700"
+          target="_blank"
+          className="flex items-center justify-center rounded-full bg-emerald-600 px-6 py-2 text-sm font-medium text-white transition-all hover:bg-emerald-700"
         >
           Enviar Email
         </a>
